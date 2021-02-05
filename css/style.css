@@ -398,6 +398,10 @@ letter-spacing: 0.01em;
   /* background-color: #292929; */
 }
 
+.more-flowers {
+  display: none;
+}
+
 .offer {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -500,7 +504,7 @@ letter-spacing: 0.01em;
   color: #292929;
 }
 
-.footer-devop {
+.footer-white-devop {
   font-family: MyriadPro;
   font-size: 12px;
   line-height: 1.2;
@@ -571,6 +575,20 @@ letter-spacing: 0.01em;
   }
   .footer-info {
     text-align: left;
+  }
+  .footer-white {
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .footer-description {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .footer-white-devop {
+    text-align: left;
+    margin-top: 0;
   }
 }
 @media (max-width: 570px) {
